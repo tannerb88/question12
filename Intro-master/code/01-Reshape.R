@@ -8,6 +8,7 @@
 
 raw <- read.csv("data/pew.csv", check.names = F)
 
+# Prints the first 10 rows of the "raw" data
 head(raw)
 
 library(reshape2)
